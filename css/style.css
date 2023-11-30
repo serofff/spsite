@@ -153,7 +153,15 @@ header {
     overflow-y: auto; 
 }
 
+
 h1 {
+    padding: 10px;
+    border-style: double;
+    border-color:darkorchid;;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+h1,h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Горизонтальний зсув, вертикальний зсув, розмір тіні та колір */
 }
