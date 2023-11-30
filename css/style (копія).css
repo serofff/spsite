@@ -4,8 +4,6 @@ body, html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     font-family: 'Arial', sans-serif;
     color: #fff;
     animation: changeColor 8s linear infinite;
@@ -87,8 +85,6 @@ table {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     max-height: 100vh; /* Максимальна висота таблиці - висота вікна перегляду */
     overflow-y: auto; /* Додати вертикальну прокрутку, якщо контент не поміщається */
-    display: flex;
-    flex-direction: column;
 }
 th, td {
     color: #000;
@@ -117,12 +113,9 @@ a:hover {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
     bottom: 0;
     left: 0;
-    height: 20px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5); /* Колір фону підвалу */
     color: #fff; /* Колір тексту у підвалі */
@@ -131,10 +124,7 @@ footer {
 }
 
 header {
-    display: flex;
-    height: 55px;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -146,11 +136,9 @@ header {
 
 .container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh; /* Встановіть висоту відображуваної частини вікна */
-    overflow-y: auto; 
 }
 
 h1 {
