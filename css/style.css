@@ -82,11 +82,11 @@ background: linear-gradient(135deg, #3498db, #2ecc71, #e74c3c, #f39c12);
 
 table {
     border-collapse: collapse;
-    width: 80%;
+    width: fit-content;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    max-height: 100vh; /* Максимальна висота таблиці - висота вікна перегляду */
-    overflow-y: auto; /* Додати вертикальну прокрутку, якщо контент не поміщається */
+    max-height: 100vh;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
 }
@@ -95,7 +95,7 @@ th, td {
     border: 1px solid #ddd;
     padding: 15px;
     text-align: left;
-    font-size: 12px; /* Змінити розмір шрифту в стовпцях таблиці на менший */
+    font-size: 12px;
 }
 
 img {
@@ -124,10 +124,10 @@ footer {
     left: 0;
     height: 20px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5); /* Колір фону підвалу */
-    color: #fff; /* Колір тексту у підвалі */
-    padding: 5px; /* Внутрішній відступ */
-    text-align: center; /* Вирівнювання тексту по центру */
+    background-color: rgba(255, 255, 255, 0.5); 
+    color: #fff;
+    padding: 5px;
+    text-align: center;
 }
 
 header {
@@ -138,10 +138,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5); /* Колір фону підвалу */
-    color: #fff; /* Колір тексту у підвалі */
-    padding: 5px; /* Внутрішній відступ */
-    text-align: center; /* Вирівнювання тексту по центру */
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
 }
 
 .container {
@@ -149,8 +149,9 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Встановіть висоту відображуваної частини вікна */
+    height: 100vh;
     overflow-y: auto; 
+    margin-bottom: 10px;
 }
 
 
@@ -164,4 +165,20 @@ h1 {
 }
 h1,h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.table{
+    border-collapse: collapse;
+width: 80%;
+background-color: rgba(255, 255, 255, 0.1);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+max-height: 100vh;
+overflow-y: auto;
+width: fit-content;
+display: flex;
+margin: 0 auto;
+text-align: center;
+}
+.table div {
+    border: 1px solid #ddd;
+    padding: 5px;
 }
