@@ -86,7 +86,7 @@ table {
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     max-height: 100vh;
-    max-width: 98%;
+    max-width: 95vw;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
@@ -222,11 +222,15 @@ margin-top: 5px;
     .textclass {
         font-size: 16px;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
     .textclass {
         font-size: 18px;
+    }
+    table{
+        max-width: 50vw;
     }
 }
 .textclass li{
