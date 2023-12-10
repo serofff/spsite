@@ -169,17 +169,17 @@ h1 {
 h1,h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.table{
+.table {
     border-collapse: collapse;
-width: 80%;
-background-color: rgba(255, 255, 255, 0.1);
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-max-height: 100vh;
-overflow-y: auto;
-width: fit-content;
-display: flex;
-margin: 0 auto;
-text-align: center;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-height: 100vh;
+    overflow-y: auto;
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
 }
 .table div {
     border: 1px solid #ddd;
@@ -192,15 +192,15 @@ text-align: center;
 }
 
 .texttable{
-border-collapse: collapse;
-background-color: rgba(255, 255, 255, 0.1);
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-overflow-y: auto;
-width: fit-content;
-margin: 0 auto;
-border: 1px solid #ddd;
-padding: 5px;
-margin-top: 5px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 .minusul{
