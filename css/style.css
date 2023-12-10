@@ -214,8 +214,20 @@ margin-top: 5px;
 .dblue{
     color: darkblue;
 }
-.urllist{
-    font-size: larger;
+.urllist {
+    font-size: 2vw; /* Задайте початковий розмір шрифта для .urllist відносно ширини вікна перегляду */
+}
+
+@media screen and (min-width: 600px) {
+    .urllist {
+        font-size: 16px; /* Змініть розмір шрифта для екранів шириною 600px і більше */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .urllist {
+        font-size: 18px; /* Змініть розмір шрифта для екранів шириною 1200px і більше */
+    }
 }
 .urllist li{
     padding: 5px;
